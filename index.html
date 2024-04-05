@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mealify</title>
-    <!-- <link rel="icon" type="image/x-icon" href="images/favicon.png"> -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,13 +18,13 @@
     <div class="header">
       <div class="container">
         <h1>
-          <a href="#">Mealify<span>.</span></a>
+          <a href="index.html">Mealify<span>.</span></a>
         </h1>
         <ul class="list none">
-          <li><a class="home" href="#">Home</a></li>
-          <li><a href="#">Chefs</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a class="home" href="#home">Home</a></li>
+          <li><a href="#chefs">Chefs</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="icons">
           <i class="fa-solid fa-moon"></i>
@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-    <div class="landing">
+    <div id="home" class="landing">
       <div class="container">
         <div class="text">
           <h2>
@@ -57,8 +57,11 @@
           <img src="images/hero-img.png" alt="fresh salad" />
         </div>
       </div>
+      <div class="fixed-button">
+        <i class="fa-solid fa-turn-up"></i>
+      </div>
     </div>
-    <div class="chefs">
+    <div id="chefs" class="chefs">
       <div class="container">
         <div class="section-title">
           <span class="title">CHEFS</span>
@@ -191,7 +194,7 @@
         </div>
       </div>
     </div>
-    <div class="gallery">
+    <div id="gallery" class="gallery">
       <div class="container">
         <div class="section-title">
           <span class="title">GALLERY</span>
@@ -273,7 +276,7 @@
         </div>
       </div>
     </div>
-    <div class="contact">
+    <div id="contact" class="contact">
       <div class="container">
         <div class="section-title">
           <span class="title">CONTACT</span>
@@ -355,9 +358,109 @@
             name="message"
             placeholder="Message"
           ></textarea>
-          <input class="button" type="submit" value="Send Message">
+          <input class="button" type="submit" value="Send Message" />
         </form>
       </div>
     </div>
+    <div class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="content-1">
+            <div class="logo">
+              <div class="img">
+                <img src="images/favicon.png" alt="favicon" />
+              </div>
+              <h2 class="text">Mealify<span>.</span></h2>
+            </div>
+            <p>
+              Mealify is a restaurant landing page that offers a delicious
+              dining experience to its customers.
+            </p>
+            <h3 class="social">Social Media</h3>
+            <div class="icons">
+              <ul>
+                <li>
+                  <a href="https://twitter.com/?lang=en"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="content-2">
+            <h3>Subscribe our Newsletter</h3>
+            <p>
+              Don't miss out on our latest menu updates and exclusive offers -
+              join our newsletter today and stay up-to-date with all things
+              Mealify!
+            </p>
+            <div class="subscribe">
+              <input
+                type="text"
+                name="sub-email"
+                placeholder="Enter Your Email Address"
+              />
+              <button><i class="fa-solid fa-envelope"></i>Subscribe</button>
+            </div>
+            <h3>Quick Links</h3>
+            <ul>
+              <li>
+                <a href="#"><i class="fa-solid fa-angle-right"></i>Menu</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-angle-right"></i>Promo</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-angle-right"></i>About Us</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-angle-right"></i>Contact</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-angle-right"></i>Testimonial</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-angle-right"></i>Our Partners</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="content-3">
+            <h3>Get in Touch</h3>
+            <div class="info">
+              <i class="fa-solid fa-location-dot"></i>
+              A108 Adam Street, New York, NY 535022
+            </div>
+            <div class="info">
+              <i class="fa-solid fa-envelope"></i>
+              contact@example.com
+            </div>
+            <div class="info">
+              <i class="fa-solid fa-phone"></i>
+              +1 5589 55488 55
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
